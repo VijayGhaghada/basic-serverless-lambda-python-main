@@ -5,7 +5,7 @@ from botocore.exceptions import ClientError
 
 
 def handler(event, context):
-    msg = 'Vijay'
+    msg = 'Vjay'
                 msg = json.loads(event["body"])
                 msg = msg["message"]
                 client= boto3.client("dynamodb")
